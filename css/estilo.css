@@ -10,11 +10,13 @@ body{
     color: rgb(202, 106, 10);
     align-items: center;
 }
+
 li{
     display: inline;
     padding: 10px;
     color: rgb(255, 51, 0);
 }
+/*
 .img1{
     width: 25%;
 }
@@ -33,15 +35,24 @@ li{
 .IA{
     background: lightcoral;
 }
+*/
+
+
 .tendencias{
-    background: url(../img/img6.jpg);
+    background: white;
     text-align: center;
-    height: 1200px;
+    height: 600px;
     background-size: 100%; 
     padding-top: 30px;
 }
-
-
+.tendencias h2{
+font-size: 31px;
+color: rgb(21, 235, 213);
+}
+.tendencias p{
+font-size: 25px;
+color: yellowgreen;
+}
 .img6{
     width: 25%;
     padding: 20px;
@@ -72,7 +83,7 @@ li{
     background-size: cover;
     font-family: 'Nunito', sans-serif;
   padding: 100px;  
-    color: white;
+    color:aqua;
 }
 
 .principal img {
@@ -84,9 +95,9 @@ li{
 }
 
 .principal-boton{
-    width: 250px;
-    height: 40px;
-    background-color:green;
+    width: 300px;
+    height: 50px;
+    background-color:mediumaquamarine;
     border: none;
     border-radius: 24px;
     font-size: 20px;
