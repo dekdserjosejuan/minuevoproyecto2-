@@ -39,30 +39,35 @@ li{
 
 
 .tendencias{
-    background: white;
+    background: rgb(72, 134, 192);
     text-align: center;
-    height: 600px;
+    height: 200px;
     background-size: 100%; 
     padding-top: 30px;
 }
 .tendencias h2{
-font-size: 31px;
-color: rgb(21, 235, 213);
-}
-.tendencias p{
-font-size: 25px;
-color: yellowgreen;
+font-size: 60px;
+color:black;
 }
 .img6{
     width: 25%;
     padding: 20px;
 }
 .videos{
-    background: white;
+    background: sandybrown;
     text-align: center;
     padding:10px ;
 }
-
+.videos h2 {
+    color: beige;
+    font-size: 25px;
+}
+.transporte {
+    text-align: center;
+    background-color:whitesmoke;
+    color: sandybrown;
+    padding: 20px;
+}
 .logo{
     width: 100px;
 }
@@ -132,7 +137,7 @@ height: 500px;
 */
 .aplicar{
 height:500px ;
-background: white;
+background: rgb(184, 172, 104);
 display:flex;
 color:black ;
 
@@ -159,22 +164,49 @@ color:black ;
 
 .conteiner1{
     display: flex;
-    background: green;
+    background: rgb(108, 172, 136);
     padding: 20px;
+    justify-content: space-around;
+    height: 190px;
 }
-
 .conteiner2{
-    background: black;
+    background:rgb(204, 162, 126);
+    text-align: center;
 }
 
-.col-continer1{
-    
+.col1-container1 {
+width: 400px;
+}
+.col2-container2 {
+width: 200px;
 }
 
-.col2-continer1{
-
+.col3-container3{
+width: 300px;
 }
 
-.col3 .conteiner1{
-    
+.row1-contacto img{ 
+width: 35px;
+height: 35px;
 }
+
+.row2-contacto img {
+    width: 35px;
+    height: 35px;
+}
+.row1-redes img {
+width: 35px;
+height: 35px;
+}
+
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.row1-contacto p {
+    padding-left: 10px;
+}
+
+
+
